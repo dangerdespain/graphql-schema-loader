@@ -1,0 +1,51 @@
+{
+  "author": {
+    "name": "Devin Despain",
+    "email": "devin@dspa.in"
+  },
+  "name": "graphql-schema-loader",
+  "description": "I provide GraphQL file structure options for schema definition organization",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dangerdespain/graphql-schema-loader",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/graphql-schema-loader.git"
+  },
+  "keywords": [
+    "graph",
+    "api",
+    "fb",
+    "graphql",
+    "utility",
+    "utilities",
+    "boilerplate",
+    "plugin",
+    "module",
+    "starter"
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "underscore": "^3.3.12",
+    "fs": "0.0.2",
+    "graphql": "^0.4.14"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "bugs": {
+    "url": "https://github.com/dangerdespain/graphql-schema-loader/issues"
+  },
+  "maintainers": [
+    {
+      "name": "dangerdespain",
+      "email": "devin@dspa.in"
+    }
+  ],
+  "scripts": {
+    "postinstall": "scripts/postinstall.js"
+  },
+  "directories": {}
+}
+ 
