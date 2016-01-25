@@ -1,6 +1,6 @@
 # graphql-schema-loader
 
-This is a schema loader to provide file-based organization for GraphQL schemas. Included in this module is a basic Github public API example. Check out the utils.extendSchema/compileSchema functions for schema extentsion capability. 
+This is a boilerplate schema structure and loader utils to provide file-based organization for GraphQL schemas. Included in this module is a basic Github public API example.
 
 Usage is simple
 
@@ -17,3 +17,6 @@ Usage is simple
 `rm graph-schema-loader/.git` // optional
 
 `var schema = require('./graphql-schema-loader').schema`
+
+** Advanced usage **
+Check out the utils.extendSchema/compileSchema functions for schema extentsion capability. This module can easily be extended to dynamically generate schemas from a set of inputs, or to pass in a seeded schema object set.
