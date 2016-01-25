@@ -4,7 +4,7 @@
     "email": "devin@dspa.in"
   },
   "name": "graphql-schema-loader",
-  "description": "I provide GraphQL file structure options for schema definition organization",
+  "description": "I provide GraphQL file structure options for schema organization options",
   "version": "0.0.1",
   "homepage": "https://github.com/dangerdespain/graphql-schema-loader",
   "repository": {
