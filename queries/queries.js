@@ -37,8 +37,8 @@ module.exports = function(schema, utils){
           type: GraphQLString
         }
       },
-      resolve: function(root, { _id }, source, fieldASTs){
-        return utils.req('get', '/gists/' + _id // ??
+      resolve: function(root, { id }, source, fieldASTs){
+        return utils.req('get', '/gists/' + id // ??
           , {})
       }
     },
