@@ -4,12 +4,12 @@
     "email": "devin@dspa.in"
   },
   "name": "graphql-schema-loader",
-  "description": "I provide GraphQL file structure options for schema organization options",
-  "version": "0.0.2",
+  "description": "I provide a boilerplate GraphQL schema structure and compiling utilities in module-style packaging",
+  "version": "0.0.4",
   "homepage": "https://github.com/dangerdespain/graphql-schema-loader",
   "repository": {
     "type": "git",
-    "url": "git@github.com/graphql-schema-loader.git"
+    "url": "https://github.com/dangerdespain/graphql-schema-loader"
   },
   "keywords": [
     "graph",
