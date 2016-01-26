@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "bluebird": "^3.1.1",
-    "underscore": "^3.3.12",
+    "underscore": "^1.8.3",
     "fs": "0.0.2",
     "graphql": "^0.4.14"
   },
@@ -43,9 +43,7 @@
       "email": "devin@dspa.in"
     }
   ],
-  "scripts": {
-    "postinstall": "scripts/postinstall.js"
-  },
+  "license": "Apache-2.0",
   "directories": {}
 }
  
