@@ -11,7 +11,7 @@ Usage is simple
 **Install as standalone plugin**
 
 `$ git clone git@github.com:dangerdespain/graphql-schema-loader.git`
-`$ cd graphql-schema-loader/ && npm install && rm .git &&N cd ../`
+`$ cd graphql-schema-loader/ && npm install && rm .git && cd ../`
 
 **Usage**
 ```JavaScript
