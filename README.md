@@ -53,6 +53,7 @@ utils = {
   compileSchema : function(schemaObjects={}){
   // runs extendSchema and compiles the result into the GraphQLSchema object that's expected by the GraphQL lib
   // If schemaObjects is included, this function adds these items to a prepopulated schema container and runs the object creation
+  }
 }
 ```
 
