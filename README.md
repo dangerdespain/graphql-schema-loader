@@ -24,8 +24,8 @@ graphql(schema: schema,
   variableValues?: {key: "any"},
   operationName?: '?string'
 ).then(function(res){
-  if(res.errors){} // errors happened (:
-  res = res // handle your data or complete your response here
+  if(res.errors){ } // Errors happened... GraphQL takes care of populating the API response but you can add more logic here.
+  res = res // Handle your data and/or complete your response here
   return res
 }) // if this function pattern doesn't make sense, check out Promises! BluebirdJS is my favorite Promise lib.
 ```
@@ -38,21 +38,20 @@ My goal here was extendable schema definitions. Imagine being able to chain in a
 var utils = require('./graphql-schema-loader').utils
 
 utils = {
-  collectObjects : function(schemaObjects={}){
-    //Smart-load and collect the items in the objects directory.
-    //If schemaObjects is included, this function adds these items to a prepopulated schema container. 
+  collectObjects : function(){
+    // Smart-load and collect the items in the objects directory.
   },
-  collectMutations : function(schemaObjects={}){}
-  collectQueries : function(schemaObjects={}){}
+  collectMutations : function(){}
+  collectQueries : function(){}
 
   extendSchema : function(schemaObjects={}){
-    // runs collectObjects/Mutations/Queries and returns the schema.
-    // If schemaObjects is included, extends that existing (uncompiled) schema with this schema and returns that object.
+    // Builds the schema from the objects/queries/mutations directories.
+    // If schemaObjects is included, this extends that schema with the new objects, queries, and mutations.
   },
 
   compileSchema : function(schemaObjects={}){
-  // runs extendSchema and compiles the result into the GraphQLSchema object that's expected by the GraphQL lib
-  // If schemaObjects is included, this function adds these items to a prepopulated schema container and runs the object creation
+  // Calls extendSchema and returns a GraphQL Schema Object
+  // If schemaObjects is included, this extends that schema with the new objects, queries, and mutations before creating the Schema object. This should be the last method called if chaining schemas.
   }
 }
 ```
