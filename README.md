@@ -18,12 +18,10 @@ Usage is simple
 var GraphQL = require('graphql');
 var schema = require('./graphql-schema-loader').schema
 
-graphql(schema: schema,
-  requestString: 'string',
-  rootValue?: '?any',
-  variableValues?: {key: "any"},
-  operationName?: '?string'
-).then(function(res){
+var query, rootValue, variables, operationName
+
+graphql(schema, query, rootValue, variables, operationName)
+.then(function(res){
   if(res.errors){ } // Errors happened... GraphQL takes care of populating the API response but you can add more logic here.
   res = res // Handle your data and/or complete your response here
   return res
