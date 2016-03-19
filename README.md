@@ -10,7 +10,7 @@ Usage is simple
 
 **Install as standalone plugin**
 
-`$ git clone git@github.com:dangerdespain/graphql-schema-loader.git`
+`$ git clone git@github.com:dangerdespain/graphql-schema-loader.git [schema title]`
 
 `$ cd graphql-schema-loader/ && npm install && rm .git && cd ../`
 
