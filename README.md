@@ -12,7 +12,9 @@ Usage is simple
 
 `$ git clone git@github.com:dangerdespain/graphql-schema-loader.git [schema title]`
 
-`$ cd graphql-schema-loader/ && npm install && rm .git && cd ../`
+`$ cd [schema title]`
+
+`npm install && rm .git && cd ../`
 
 **Usage**
 ```JavaScript
